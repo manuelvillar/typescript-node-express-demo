@@ -1,0 +1,7 @@
+node_modules
+dist
+coverage
+.DS_Store
+.scrapConfig.json
+scrapData.json
+README.orig.md

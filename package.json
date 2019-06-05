@@ -1,0 +1,46 @@
+{
+  "name": "typescript-node-express-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i --verbose -- ",
+    "coverage": "jest --coverage",
+    "dev": "tsc-watch --onSuccess \"node ./dist/server.js\"",
+    "scrap": "rm .scrapConfig.json; rm scrapData.json; node ./dist/scrap.js",
+    "start": "node ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.1",
+    "cron": "^1.7.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jest": "^24.8.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "tsc-watch": "^2.2.1",
+    "typescript": "^3.5.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/cron": "^1.7.1",
+    "@types/express": "^4.17.0",
+    "@types/jest": "^24.0.13",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^12.0.4",
+    "@types/supertest": "^2.0.7",
+    "@types/winston": "^2.4.4",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.17.1"
+  }
+}
